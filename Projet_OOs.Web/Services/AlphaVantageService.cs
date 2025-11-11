@@ -51,16 +51,22 @@ namespace Projet_OOS.Web.Services
                 var date = DateTime.Parse(entry.Name);
                 var values = entry.Value;
 
+                var openStr = values.GetProperty("1. open").GetString() ?? "0";
+                var highStr = values.GetProperty("2. high").GetString() ?? "0";
+                var lowStr = values.GetProperty("3. low").GetString() ?? "0";
+                var closeStr = values.GetProperty("4. close").GetString() ?? "0";
+                var volumeStr = values.GetProperty("5. volume").GetString() ?? "0";
+
                 dataList.Add(new FinancialData
                 {
                     Symbol = symbol,
                     Date = date,
-                    Open = decimal.Parse(values.GetProperty("1. open").GetString(), CultureInfo.InvariantCulture),
-                    High = decimal.Parse(values.GetProperty("2. high").GetString(), CultureInfo.InvariantCulture),
-                    Low = decimal.Parse(values.GetProperty("3. low").GetString(), CultureInfo.InvariantCulture),
-                    Close = decimal.Parse(values.GetProperty("4. close").GetString(), CultureInfo.InvariantCulture),
-                    AdjustedClose = decimal.Parse(values.GetProperty("4. close").GetString(), CultureInfo.InvariantCulture),
-                    Volume = long.Parse(values.GetProperty("5. volume").GetString(), CultureInfo.InvariantCulture)
+                    Open = decimal.Parse(openStr, CultureInfo.InvariantCulture),
+                    High = decimal.Parse(highStr, CultureInfo.InvariantCulture),
+                    Low = decimal.Parse(lowStr, CultureInfo.InvariantCulture),
+                    Close = decimal.Parse(closeStr, CultureInfo.InvariantCulture),
+                    AdjustedClose = decimal.Parse(closeStr, CultureInfo.InvariantCulture),
+                    Volume = long.Parse(volumeStr, CultureInfo.InvariantCulture)
                 });
             }
 
