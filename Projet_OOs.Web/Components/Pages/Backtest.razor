@@ -1,0 +1,194 @@
+@page "/backtest"
+@using Projet_OOS.Web.Core
+@using Projet_OOS.Web.Core.Strategies
+@using Projet_OOS.Web.Services
+@using Projet_OOS.Web.ViewModels
+@using Projet_OOS.Web.Models
+@inject Projet_OOS.Web.Core.BacktestingEngine Engine
+@inject AlphaVantageService DataService
+@inject Projet_OOS.Web.Core.MetricsCalculator MetricsCalculator
+@inject IJSRuntime JSRuntime 
+
+<h3>Lancez un Backtest</h3>
+
+<EditForm Model="@Config" OnValidSubmit="RunSimulation" FormName="@nameof(Config)">
+    <DataAnnotationsValidator />
+    
+    <div class="form-group mb-3">
+        <label for="symbol">Symbole de l'Actif (ex: IBM, MSFT)</label>
+        <InputText id="symbol" class="form-control" @bind-Value="Config.Symbol" />
+        <ValidationMessage For="@(() => Config.Symbol)" />
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="capital">Capital Initial (€)</label>
+        <InputNumber id="capital" class="form-control" @bind-Value="Config.InitialCapital" />
+        <ValidationMessage For="@(() => Config.InitialCapital)" />
+    </div>
+    
+    <h4>Stratégie : Moving Average Crossover (MAC)</h4>
+    <div class="row">
+        <div class="col-6 form-group mb-3">
+            <label for="fast">Période Rapide (jours)</label>
+            <InputNumber id="fast" class="form-control" @bind-Value="Config.MacFastPeriod" />
+        </div>
+        <div class="col-6 form-group mb-3">
+            <label for="slow">Période Lente (jours)</label>
+            <InputNumber id="slow" class="form-control" @bind-Value="Config.MacSlowPeriod" />
+        </div>
+    </div>
+    
+    <button type="submit" class="btn btn-primary" disabled="@IsLoading">
+        @if (IsLoading)
+        {
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            <span>Chargement...</span>
+        }
+        else
+        {
+            <span>Lancer le Backtest</span>
+        }
+    </button>
+
+    @if (!string.IsNullOrEmpty(ErrorMessage))
+    {
+        <div class="alert alert-danger mt-3" role="alert">
+            @ErrorMessage
+        </div>
+    }
+</EditForm>
+
+<hr />
+
+@if (Result != null && Performance != null)
+{
+    <h4>Résultats du Backtest pour @Config.Symbol</h4>
+    
+    <div class="row">
+        <div class="col-md-12 mb-4">
+            <h5>Courbe de Capital</h5>
+            <canvas id="equityChartCanvas" style="max-height: 400px;"></canvas> 
+        </div>
+
+        <div class="col-md-6">
+            <p><strong>Stratégie:</strong> @Performance.StrategyName</p>
+            <p><strong>Capital Final:</strong> @Performance.FinalCapital.ToString("C")</p>
+            <p><strong>Rendement Total:</strong> @Performance.TotalReturn.ToString("P2")</p>
+            <p><strong>Maximum Drawdown:</strong> @Performance.MaxDrawdown.ToString("P2")</p>
+        </div>
+        <div class="col-md-6">
+            <p><strong>Capital Initial:</strong> @Performance.InitialCapital.ToString("C")</p>
+            <p><strong>Nombre de Transactions:</strong> @Performance.TotalTrades</p>
+        </div>
+    </div>
+
+    <h5>Historique des Trades (5 derniers)</h5>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Type</th>
+                <th>Quantité</th>
+                <th>Prix</th>
+                <th>Valeur Portefeuille</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var trade in LatestTrades)
+            {
+                <tr>
+                    <td>@trade.Date.ToShortDateString()</td>
+                    <td>@trade.Type.ToString()</td>
+                    <td>@trade.Quantity</td>
+                    <td>@trade.Price.ToString("C")</td>
+                    <td>@trade.EquitySnapshot.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private BacktestConfigurationViewModel Config { get; set; } = new();
+    private Projet_OOS.Web.Core.Portfolio? Result { get; set; } 
+    private PerformanceMetrics? Performance { get; set; } 
+    private bool IsLoading { get; set; } = false;
+    private string? ErrorMessage { get; set; } 
+    private List<Trade> LatestTrades { get; set; } = new();
+
+    // ✅ Variables pour interop JS différé
+    private bool ShouldDrawChart { get; set; } = false;
+    private List<string>? ChartDates;
+    private List<decimal>? ChartValues;
+    private decimal InitialCapital;
+
+    private async Task RunSimulation()
+    {
+        IsLoading = true;
+        Result = null;
+        Performance = null;
+        ErrorMessage = null;
+        LatestTrades.Clear(); 
+        ShouldDrawChart = false;
+
+        try
+        {
+            var historicalData = await DataService.GetDailyDataAsync(Config.Symbol);
+
+            if (historicalData == null || !historicalData.Any())
+            {
+                ErrorMessage = $"Aucune donnée historique trouvée pour le symbole {Config.Symbol}.";
+                return;
+            }
+
+            var strategy = new MovingAverageCrossoverStrategy
+            {
+                FastPeriod = Config.MacFastPeriod,
+                SlowPeriod = Config.MacSlowPeriod
+            };
+
+            Result = await Engine.RunBacktestAsync(historicalData, strategy, Config.InitialCapital);
+
+            if (Result != null)
+            {
+                Performance = MetricsCalculator.Calculate(Result, strategy.Name);
+                LatestTrades = Result.TradeHistory.OrderByDescending(t => t.Date).Take(5).ToList();
+                PrepareEquityChart(Result);
+            }
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = $"Erreur lors du backtest : {ex.Message}";
+        }
+        finally
+        {
+            IsLoading = false;
+        }
+    }
+
+    private void PrepareEquityChart(Projet_OOS.Web.Core.Portfolio portfolio)
+    {
+        if (portfolio.EquityCurve.Any())
+        {
+            ChartDates = portfolio.EquityCurve.Keys.Select(d => d.ToString("yyyy-MM-dd")).ToList();
+            ChartValues = portfolio.EquityCurve.Values.ToList();
+            InitialCapital = portfolio.InitialCapital;
+            ShouldDrawChart = true;
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (ShouldDrawChart && ChartDates != null && ChartValues != null)
+        {
+            await JSRuntime.InvokeVoidAsync("blazorChartInterop.drawEquityChart",
+                "equityChartCanvas",
+                ChartDates,
+                ChartValues,
+                InitialCapital
+            );
+
+            ShouldDrawChart = false;
+        }
+    }
+}

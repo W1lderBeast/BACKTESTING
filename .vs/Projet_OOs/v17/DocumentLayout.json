@@ -1,0 +1,483 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\projet_oos.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\projet_oos.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\core\\backtestingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\core\\backtestingengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\core\\strategies\\movingaveragecrossoverstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\core\\strategies\\movingaveragecrossoverstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\core\\strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\core\\strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\core\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\core\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\core\\metricscalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\core\\metricscalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\services\\alphavantageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\services\\alphavantageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\models\\financialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\models\\financialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\core\\indicators\\indicatorcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\core\\indicators\\indicatorcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\components\\pages\\backtest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\components\\pages\\backtest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\core\\strategies\\strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\core\\strategies\\strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\wwwroot\\lib\\bootstrap\\dist\\js\\chartinterop.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\wwwroot\\lib\\bootstrap\\dist\\js\\chartinterop.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\engines\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\engines\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\components\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\components\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C02E106-B118-08AA-99DA-1E3367F98D71}|Projet_OOs.ApiService\\Projet_OOs.ApiService.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C02E106-B118-08AA-99DA-1E3367F98D71}|Projet_OOs.ApiService\\Projet_OOs.ApiService.csproj|solutionrelative:projet_oos.apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B8163C4-F72D-4E08-BCB6-C52A2018381D}|Projet_OOs.AppHost\\Projet_OOs.AppHost.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.apphost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B8163C4-F72D-4E08-BCB6-C52A2018381D}|Projet_OOs.AppHost\\Projet_OOs.AppHost.csproj|solutionrelative:projet_oos.apphost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\viewmodels\\backtestconfigurationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\viewmodels\\backtestconfigurationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\models\\trade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\models\\trade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\models\\performancemetrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\models\\performancemetrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\engines\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\engines\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\core\\strategies\\istrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\core\\strategies\\istrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\core\\signals\\signaltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\core\\signals\\signaltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|c:\\users\\rapht\\source\\repos\\projet_oos\\projet_oos.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3501FC3F-6158-A8DE-8127-E3EF768C0B78}|Projet_OOs.Web\\Projet_OOs.Web.csproj|solutionrelative:projet_oos.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IndicatorCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Indicators\\IndicatorCalculator.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Core\\Indicators\\IndicatorCalculator.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Indicators\\IndicatorCalculator.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Core\\Indicators\\IndicatorCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:20:13.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\wwwroot\\index.html",
+              "RelativeToolTip": "Projet_OOs.Web\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-09T00:54:49.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Portfolio.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Portfolio.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Core\\Portfolio.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Portfolio.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Core\\Portfolio.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAkwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:02:17.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FinancialData.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Models\\FinancialData.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Models\\FinancialData.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Models\\FinancialData.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Models\\FinancialData.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T11:57:07.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlphaVantageService.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Services\\AlphaVantageService.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Services\\AlphaVantageService.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Services\\AlphaVantageService.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Services\\AlphaVantageService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:14:45.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BacktestingEngine.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\BacktestingEngine.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Core\\BacktestingEngine.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\BacktestingEngine.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Core\\BacktestingEngine.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:50:12.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Projet_OOs.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Projet_OOs.Web.csproj",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Projet_OOs.Web.csproj",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Projet_OOs.Web.csproj",
+              "RelativeToolTip": "Projet_OOs.Web\\Projet_OOs.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-28T11:56:18.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovingAverageCrossoverStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Strategies\\MovingAverageCrossoverStrategy.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Core\\Strategies\\MovingAverageCrossoverStrategy.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Strategies\\MovingAverageCrossoverStrategy.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Core\\Strategies\\MovingAverageCrossoverStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:27:02.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Strategy.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Strategy.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Core\\Strategy.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Strategy.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Core\\Strategy.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAzwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T11:59:38.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MetricsCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\MetricsCalculator.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Core\\MetricsCalculator.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\MetricsCalculator.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Core\\MetricsCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T23:44:09.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Backtest.razor",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Components\\Pages\\Backtest.razor",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Components\\Pages\\Backtest.razor",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Components\\Pages\\Backtest.razor",
+              "RelativeToolTip": "Projet_OOs.Web\\Components\\Pages\\Backtest.razor",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAkwMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T13:07:31.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\appsettings.json",
+              "RelativeToolTip": "Projet_OOs.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-28T11:49:58.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Strategy.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Strategies\\Strategy.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Core\\Strategies\\Strategy.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Strategies\\Strategy.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Core\\Strategies\\Strategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T23:07:16.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Program.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:16:37.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Interface.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Engines\\Interface.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Engines\\Interface.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Engines\\Interface.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Engines\\Interface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:46:50.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "chartInterop.js",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\chartInterop.js",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\chartInterop.js",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\chartInterop.js",
+              "RelativeToolTip": "Projet_OOs.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\chartInterop.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-09T00:59:20.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.AppHost\\appsettings.json",
+              "RelativeDocumentMoniker": "Projet_OOs.AppHost\\appsettings.json",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.AppHost\\appsettings.json",
+              "RelativeToolTip": "Projet_OOs.AppHost\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-28T11:48:12.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BacktestConfigurationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\ViewModels\\BacktestConfigurationViewModel.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\ViewModels\\BacktestConfigurationViewModel.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\ViewModels\\BacktestConfigurationViewModel.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\ViewModels\\BacktestConfigurationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T13:05:20.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Component.razor",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Components\\Pages\\Component.razor",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Components\\Pages\\Component.razor",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Components\\Pages\\Component.razor",
+              "RelativeToolTip": "Projet_OOs.Web\\Components\\Pages\\Component.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T22:49:27.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ApiService\\appsettings.json",
+              "RelativeDocumentMoniker": "Projet_OOs.ApiService\\appsettings.json",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ApiService\\appsettings.json",
+              "RelativeToolTip": "Projet_OOs.ApiService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-28T11:50:01.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Portfolio.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Models\\Portfolio.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Models\\Portfolio.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Models\\Portfolio.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Models\\Portfolio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:59:03.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Trade.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Models\\Trade.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Models\\Trade.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Models\\Trade.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Models\\Trade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:57:15.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PerformanceMetrics.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Models\\PerformanceMetrics.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Models\\PerformanceMetrics.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Models\\PerformanceMetrics.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Models\\PerformanceMetrics.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T23:44:50.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Engines\\Class.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Engines\\Class.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Engines\\Class.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Engines\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:48:01.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Strategies\\IStrategy.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Core\\Strategies\\IStrategy.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Strategies\\IStrategy.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Core\\Strategies\\IStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:53:33.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SignalType.cs",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Signals\\SignalType.cs",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Core\\Signals\\SignalType.cs",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Core\\Signals\\SignalType.cs",
+              "RelativeToolTip": "Projet_OOs.Web\\Core\\Signals\\SignalType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T23:05:54.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Projet_OOs.Web\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Projet_OOs.Web\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T13:18:10.711Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

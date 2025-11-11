@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.3.1" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>18a5ba97-12f3-467f-8720-877ad63285fb</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Projet_OOs.ApiService\Projet_OOs.ApiService.csproj" />
+    <ProjectReference Include="..\Projet_OOs.Web\Projet_OOs.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AlphaVantage.Net" Version="1.3.0" />
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.3.1" />
+  </ItemGroup>
+
+</Project>

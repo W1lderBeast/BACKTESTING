@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AlphaVantage.Net.Common" Version="2.0.2" />
+    <PackageReference Include="AlphaVantage.Net.Core" Version="2.0.2" />
+    <PackageReference Include="AlphaVantage.Net.Stocks" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Projet_OOs.ServiceDefaults\Projet_OOs.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>

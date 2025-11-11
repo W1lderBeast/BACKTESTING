@@ -1,0 +1,12 @@
+C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.ServiceDefaults\bin\Debug\net8.0\Projet_OOs.ServiceDefaults.deps.json
+C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.ServiceDefaults\bin\Debug\net8.0\Projet_OOs.ServiceDefaults.dll
+C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.ServiceDefaults\bin\Debug\net8.0\Projet_OOs.ServiceDefaults.pdb
+C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.ServiceDefaults\obj\Debug\net8.0\Projet_OOs.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.ServiceDefaults\obj\Debug\net8.0\Projet_OOs.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.ServiceDefaults\obj\Debug\net8.0\Projet_OOs.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.ServiceDefaults\obj\Debug\net8.0\Projet_OOs.ServiceDefaults.AssemblyInfo.cs
+C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.ServiceDefaults\obj\Debug\net8.0\Projet_OOs.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.ServiceDefaults\obj\Debug\net8.0\Projet_OOs.ServiceDefaults.dll
+C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.ServiceDefaults\obj\Debug\net8.0\refint\Projet_OOs.ServiceDefaults.dll
+C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.ServiceDefaults\obj\Debug\net8.0\Projet_OOs.ServiceDefaults.pdb
+C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.ServiceDefaults\obj\Debug\net8.0\ref\Projet_OOs.ServiceDefaults.dll
