@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projet_OOs.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ce4fda501ab1e5b7609a3a85070ae1d5b1fc91d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d46d80a2a15c36b46ca3a4583367adca7853487")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projet_OOs.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projet_OOs.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
