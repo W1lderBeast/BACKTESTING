@@ -1,4 +1,4 @@
-﻿using Projet_OOS.Web.Core.Strategies; // Pour la référence à Trade
+using System.Collections.Generic;
 
 namespace Projet_OOS.Web.Models
 {

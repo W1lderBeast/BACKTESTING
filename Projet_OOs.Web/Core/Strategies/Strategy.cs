@@ -1,4 +1,5 @@
-﻿using Projet_OOS.Web.Models;
+using Projet_OOS.Web.Core.Signals;
+using Projet_OOS.Web.Models;
 using System.Collections.Generic;
 
 namespace Projet_OOS.Web.Core.Strategies

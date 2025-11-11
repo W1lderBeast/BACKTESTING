@@ -1,4 +1,4 @@
-﻿namespace Projet_OOs.Web.Core.Signals
+namespace Projet_OOS.Web.Core.Signals
 {
     public enum SignalType
     {
@@ -7,7 +7,6 @@
         Sell  // Vendre
     }
 
-    // Fichier : Projet_OOS.Web/Core/Signals/Signal.cs
     public class Signal
     {
         public SignalType Type { get; set; }
