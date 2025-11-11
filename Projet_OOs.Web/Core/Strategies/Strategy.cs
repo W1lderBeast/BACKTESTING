@@ -10,6 +10,10 @@ namespace Projet_OOS.Web.Core.Strategies
         // CORRECTION: Ajout de la propriété abstraite 'Name'
         public abstract string Name { get; }
 
-        public abstract Signal GenerateSignal(FinancialData currentBar, Portfolio portfolio, List<FinancialData> history);
+        public virtual void Initialize(IReadOnlyList<FinancialData> history)
+        {
+        }
+
+        public abstract Signal GenerateSignal(int index, FinancialData currentBar, Portfolio portfolio, IReadOnlyList<FinancialData> history);
     }
 }
