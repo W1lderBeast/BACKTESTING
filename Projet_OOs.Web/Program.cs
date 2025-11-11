@@ -16,7 +16,7 @@ builder.Services.AddOutputCache();
 
 builder.Services.AddHttpClient<WeatherApiClient>(client =>
 {
-    client.BaseAddress = new("https+http://apiservice");
+    client.BaseAddress = new("http://apiservice");
 });
 
 // ENREGISTREMENT UNIQUE ET CORRECT DES SERVICES

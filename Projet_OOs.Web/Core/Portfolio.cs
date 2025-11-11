@@ -1,4 +1,4 @@
-using Projet_OOS.Web.Core.Strategies; // Ajout pour Signal et SignalType
+using Projet_OOS.Web.Core.Signals;
 using Projet_OOS.Web.Models; // Pour FinancialData et Trade
 using System.Collections.Generic;
 using System.Linq;
@@ -60,13 +60,25 @@ namespace Projet_OOS.Web.Core
             // On utilise AdjustedClose comme prix d'exécution
             if (_currentMarketData == null || signal.Quantity == 0) return;
 
+            TradeType? tradeType = signal.Type switch
+            {
+                SignalType.Buy => TradeType.Buy,
+                SignalType.Sell => TradeType.Sell,
+                _ => null
+            };
+
+            if (!tradeType.HasValue)
+            {
+                return;
+            }
+
             var trade = new Trade
             {
                 Date = _currentMarketData.Date,
                 Symbol = _currentMarketData.Symbol,
                 Price = _currentMarketData.AdjustedClose, // CORRECTION: Utiliser AdjustedClose
                 Quantity = signal.Quantity,
-                Type = (TradeType)signal.Type
+                Type = tradeType.Value
             };
 
             if (signal.Type == SignalType.Buy)
@@ -78,6 +90,7 @@ namespace Projet_OOS.Web.Core
                     Holdings[trade.Symbol] = Holdings.GetValueOrDefault(trade.Symbol, 0) + trade.Quantity;
                     trade.EquitySnapshot = TotalEquity; // Snapshot après l'opération
                     TradeHistory.Add(trade);
+                    EquityCurve[_currentMarketData.Date] = TotalEquity;
                 }
             }
             else if (signal.Type == SignalType.Sell)
@@ -97,6 +110,7 @@ namespace Projet_OOS.Web.Core
 
                     trade.EquitySnapshot = TotalEquity; // Snapshot après l'opération
                     TradeHistory.Add(trade);
+                    EquityCurve[_currentMarketData.Date] = TotalEquity;
                 }
             }
         }
