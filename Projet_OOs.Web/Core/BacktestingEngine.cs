@@ -19,6 +19,8 @@ namespace Projet_OOS.Web.Core
 
             var symbol = historicalData.FirstOrDefault()?.Symbol;
 
+            strategy.Initialize(historicalData);
+
             int startIndex = 0;
 
             if (historicalData.Count > 0)
@@ -43,8 +45,7 @@ namespace Projet_OOS.Web.Core
                 portfolio.Update(currentBar);
 
                 // 2. Obtenir le signal de la stratégie
-                var historyUpToCurrentDay = historicalData.Take(i + 1).ToList();
-                var signal = strategy.GenerateSignal(currentBar, portfolio, historyUpToCurrentDay);
+                var signal = strategy.GenerateSignal(i, currentBar, portfolio, historicalData);
 
                 // 3. Exécuter le trade
                 // ✅ Correction : N'exécuter le trade QUE si un signal non nul a été généré.
