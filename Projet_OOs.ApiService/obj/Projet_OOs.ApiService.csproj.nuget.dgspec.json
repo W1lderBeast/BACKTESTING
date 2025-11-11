@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ApiService\\Projet_OOs.ApiService.csproj": {}
+    "C:\\Users\\keume\\Downloads\\projet marielle\\git backtesting\\BACKTESTING\\Projet_OOs.ApiService\\Projet_OOs.ApiService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ApiService\\Projet_OOs.ApiService.csproj": {
+    "C:\\Users\\keume\\Downloads\\projet marielle\\git backtesting\\BACKTESTING\\Projet_OOs.ApiService\\Projet_OOs.ApiService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ApiService\\Projet_OOs.ApiService.csproj",
+        "projectUniqueName": "C:\\Users\\keume\\Downloads\\projet marielle\\git backtesting\\BACKTESTING\\Projet_OOs.ApiService\\Projet_OOs.ApiService.csproj",
         "projectName": "Projet_OOs.ApiService",
-        "projectPath": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ApiService\\Projet_OOs.ApiService.csproj",
-        "packagesPath": "C:\\Users\\rapht\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ApiService\\obj\\",
+        "projectPath": "C:\\Users\\keume\\Downloads\\projet marielle\\git backtesting\\BACKTESTING\\Projet_OOs.ApiService\\Projet_OOs.ApiService.csproj",
+        "packagesPath": "C:\\Users\\keume\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\keume\\Downloads\\projet marielle\\git backtesting\\BACKTESTING\\Projet_OOs.ApiService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rapht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\keume\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\keume\\.nuget\\packages": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ServiceDefaults\\Projet_OOs.ServiceDefaults.csproj": {
-                "projectPath": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ServiceDefaults\\Projet_OOs.ServiceDefaults.csproj"
+              "C:\\Users\\keume\\Downloads\\projet marielle\\git backtesting\\BACKTESTING\\Projet_OOs.ServiceDefaults\\Projet_OOs.ServiceDefaults.csproj": {
+                "projectPath": "C:\\Users\\keume\\Downloads\\projet marielle\\git backtesting\\BACKTESTING\\Projet_OOs.ServiceDefaults\\Projet_OOs.ServiceDefaults.csproj"
               }
             }
           }
@@ -47,8 +49,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -72,24 +73,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ServiceDefaults\\Projet_OOs.ServiceDefaults.csproj": {
+    "C:\\Users\\keume\\Downloads\\projet marielle\\git backtesting\\BACKTESTING\\Projet_OOs.ServiceDefaults\\Projet_OOs.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ServiceDefaults\\Projet_OOs.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\keume\\Downloads\\projet marielle\\git backtesting\\BACKTESTING\\Projet_OOs.ServiceDefaults\\Projet_OOs.ServiceDefaults.csproj",
         "projectName": "Projet_OOs.ServiceDefaults",
-        "projectPath": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ServiceDefaults\\Projet_OOs.ServiceDefaults.csproj",
-        "packagesPath": "C:\\Users\\rapht\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rapht\\source\\repos\\Projet_OOs\\Projet_OOs.ServiceDefaults\\obj\\",
+        "projectPath": "C:\\Users\\keume\\Downloads\\projet marielle\\git backtesting\\BACKTESTING\\Projet_OOs.ServiceDefaults\\Projet_OOs.ServiceDefaults.csproj",
+        "packagesPath": "C:\\Users\\keume\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\keume\\Downloads\\projet marielle\\git backtesting\\BACKTESTING\\Projet_OOs.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rapht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\keume\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -98,7 +99,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\keume\\.nuget\\packages": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net8.0": {
@@ -115,8 +118,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -170,7 +172,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

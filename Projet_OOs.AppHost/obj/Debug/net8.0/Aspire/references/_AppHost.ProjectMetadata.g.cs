@@ -8,5 +8,5 @@ namespace Projects;
 public class Projet_OOs_AppHost
 {
     private Projet_OOs_AppHost() { }
-    public static string ProjectPath => """C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.AppHost""";
+    public static string ProjectPath => """C:\Users\keume\Downloads\projet marielle\git backtesting\BACKTESTING\Projet_OOs.AppHost""";
 }

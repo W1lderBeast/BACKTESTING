@@ -7,5 +7,5 @@ namespace Projects;
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
 public class Projet_OOs_Web : global::Aspire.Hosting.IProjectMetadata
 {
-    public string ProjectPath => """C:\Users\rapht\source\repos\Projet_OOs\Projet_OOs.Web\Projet_OOs.Web.csproj""";
+    public string ProjectPath => """C:\Users\keume\Downloads\projet marielle\git backtesting\BACKTESTING\Projet_OOs.Web\Projet_OOs.Web.csproj""";
 }
